@@ -3,6 +3,7 @@
  */
 var fs = require("promised-io/fs"),
 	MIME_TYPES = require("pintura/jsgi/mime").MIME_TYPES,
+console.log('mime types');
 	when = require("promised-io/promise").when,
 	AutoTransaction = require("../transaction").AutoTransaction;
 
